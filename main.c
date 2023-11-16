@@ -47,3 +47,18 @@ int main(void)
 
 	return 0;
 }
+
+int Mod(int operand1, int operand2)
+ {
+    
+    if (operand2 != 0) 
+	{
+        return operand1 % operand2;
+    } 
+	else 
+	{
+        
+        printf(" Division by zero is not allowed.");
+        return 0;
+	}
+}
