@@ -47,3 +47,8 @@ int main(void)
 
 	return 0;
 }
+
+int Sub(int oprand1,int oprand2)
+{
+	return oprand1-oprand2;
+}
