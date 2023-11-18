@@ -48,9 +48,10 @@ int main(void)
 	return 0;
 }
 
-add(int oprand_1, int oprand_2)
+Multi(int oprand_1, int oprand_2)
 {
 
-result = oprand_1 + oprand_2;
+result = oprand_1 * oprand_2;
 
 }
+
