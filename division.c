@@ -1,10 +1,3 @@
-#include <stdio.h>
-
-int Sum(int oprand1,int oprand2);
-int Sub(int oprand1,int oprand2);
-int Multi(int oprand1,int oprand2);
-int Div(int oprand1,int oprand2);
-int Mod(int oprand1,int oprand2);
 
 int main(void)
 {
@@ -72,37 +65,20 @@ int Mod(int operand1, int operand2)
 }
 
 
-Multi(int oprand1, int oprand2)
+
+
+int Div(operand1,operand 2)
+
 {
 
-	return oprand1 * oprand2;
+   int res ;
 
-}
-
-
-Sum(int oprand1, int oprand2)
-{
-
-	return oprand1 + oprand2;
-
-}
-
-int Sub(int oprand1,int oprand2)
-{
-	return oprand1-oprand2;
-}
-
-int Div(int operand1, int operand2)
-{
-
- int res;
- if(operand2==0)
-  {
-    printf("NOT Valid To Divid By Zero");
-    return 0;
-  }
-  else
-      res=operand1/operand2;
+   if(operand2==0)
+    {
+      printf("Invalid Division by 0");
+      return 0;
+    } 
+ else
+   res=operand1/operand2;
    return res;
-
 }
