@@ -50,6 +50,14 @@ int main(void)
 }
 
 
+Multi(int oprand_1, int oprand_2)
+{
+
+return oprand_1 * oprand_2;
+
+}
+
+
 add(int oprand_1, int oprand_2)
 {
 
@@ -60,5 +68,5 @@ return oprand_1 + oprand_2;
 int Sub(int oprand1,int oprand2)
 {
 	return oprand1-oprand2;
-
 }
+
