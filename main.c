@@ -92,3 +92,17 @@ int Sub(int oprand1,int oprand2)
 	return oprand1-oprand2;
 }
 
+int Div(int operand1, int operand2)
+{
+
+ int res;
+ if(operand2==0)
+  {
+    printf("NOT Valid To Divid By Zero");
+    return 0;
+  }
+  else
+      res=operand1/operand2;
+   return res;
+
+}
