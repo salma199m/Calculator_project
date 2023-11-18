@@ -75,7 +75,7 @@ int Mod(int operand1, int operand2)
 int Multi(int oprand1, int oprand2)
 {
 
-	return oprand1 * oprand2;
+	return (oprand1*oprand2);
 
 }
 
