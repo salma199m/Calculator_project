@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int Sum(int oprand_1,int oprand_2);
-int Sub(int oprand_1,int oprand_2);
-int Multi(int oprand_1,int oprand_2);
-int Div(int oprand_1,int oprand_2);
-int Mod(int oprand_1,int oprand_2);
+int Sum(int oprand1,int oprand2);
+int Sub(int oprand1,int oprand2);
+int Multi(int oprand1,int oprand2);
+int Div(int oprand1,int oprand2);
+int Mod(int oprand1,int oprand2);
+
 int main(void)
 {
 	char operatorr;int oprand_1,oprand_2,result=0;
@@ -48,10 +49,24 @@ int main(void)
 	return 0;
 }
 
+
 Multi(int oprand_1, int oprand_2)
 {
 
-result = oprand_1 * oprand_2;
+return oprand_1 * oprand_2;
 
+}
+
+
+add(int oprand_1, int oprand_2)
+{
+
+return oprand_1 + oprand_2;
+  
+}
+
+int Sub(int oprand1,int oprand2)
+{
+	return oprand1-oprand2;
 }
 
