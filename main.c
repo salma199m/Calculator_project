@@ -72,7 +72,7 @@ int Mod(int operand1, int operand2)
 }
 
 
-Multi(int oprand1, int oprand2)
+int Multi(int oprand1, int oprand2)
 {
 
 	return oprand1 * oprand2;
@@ -80,7 +80,7 @@ Multi(int oprand1, int oprand2)
 }
 
 
-Sum(int oprand1, int oprand2)
+int Sum(int oprand1, int oprand2)
 {
 
 	return oprand1 + oprand2;
